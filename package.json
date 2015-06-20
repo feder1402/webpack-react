@@ -1,0 +1,27 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --config webpack.development.js --devtool eval --progress --colors --hot --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feder1402/webpack-react.git"
+  },
+  "author": "Federico Raggi <fraggi@godaddy.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feder1402/webpack-react/issues"
+  },
+  "homepage": "https://github.com/feder1402/webpack-react",
+  "devDependencies": {
+    "css-loader": "^0.15.1",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
